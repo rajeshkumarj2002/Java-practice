@@ -23,17 +23,15 @@ class data{
 }
 public class Student {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		
-		
-		
+	public static void main(String[] args) {		
 		data student1=new data(1,"Rajesh");
+		
 		data student2=new data(2,"kumar");
+		
 		System.out.println("Roll.no="+student1.rollno);
 		System.out.println("Name="+student1.name);
 		System.out.println("total= "+student1.total());
+		
 		System.out.println("Roll.no="+student2.rollno);
 		System.out.println("Name="+student2.name);
 		System.out.println("Total= "+student2.total());
